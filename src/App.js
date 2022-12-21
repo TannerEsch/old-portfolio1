@@ -1,41 +1,34 @@
-import logo from './logo.svg';
-import About from './About';
-import broilan from "./broilan.webp";
-import './App.css';
-import Projects from './Projects';
-import Blog from './Blog';
-import Home from './Home';
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Link
-} from 'react-router-dom';
+import React from 'react';
+import About from './components/About';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import Home from './components/Home';
+import Skills from './components/Skills';
+import NavbarVertical from './components/NavbarVertical';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+
+import { Route, Switch, Redirect, BrowserRouter as Router, Routes } from 'react-router-dom';
+
 
 function App() {
   return (
+    <div>
     <Router> 
+      <NavbarVertical/>
       <Routes>
-        <Route path="/About" element={< About />} />
-        <Route path="/Blog" element={< Blog />} />
-        <Route path="/Projects" element={< Projects />} />
+        <Route path="/" src="https://i.imgur.com/kAwto4t.jpg"  element={< Home />} />
+        <Route path="/About" element={< About />} />        
+        <Route path="/Contact" element={< Contact />} />
+        <Route path="/projects" element={< Projects />} />
+        <Route path="/Skills" element={< Skills />} />
         <Route path="/" element={< Home />} />
-      </Routes>
-      <div class = "linkContainer">
-        <header class = "header">
-        <Link to="/" className ="Home">Home</Link>
-        <Link to="/Blog" className ="Blog">Blog</Link>
-        <Link to="/about" className ="About">About</Link>
-        <Link to="/Projects" className ="Projects">Projects</Link>
-        </header>
-        </div>
+        </Routes>
         <div>
-        <style>
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
-</style>
-        <img src={broilan} className = "broilan"/>
+        
         </div>
     </Router>
+    </div>
   );
 }
 
