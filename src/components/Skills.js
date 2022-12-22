@@ -10,12 +10,13 @@ import Databases from './Databases';
 function Skills() {
     return (
         <Tabs
-            style={{ position: "absolute", width: "175vh", left: "250px", top: "0px" }}
+            style={{ position: "absolute", backgroundColor:"black", fontFamily:"Chivo Mono", width: "175vh", left: "250px", top: "-8px" }}
             defaultActiveKey="profile"
             id="fill-tab-example"
             className="mb-3"
             fill
         >
+            <style> @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap'); </style>
             <Tab eventKey="home" title="Languages">
                 <Languages />
             </Tab>

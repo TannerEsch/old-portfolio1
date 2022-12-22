@@ -15,7 +15,7 @@ function Home() {
                 <h1> Full-Stack Engineer </h1>
 
                 </div>
-                <Button variant="primary" style={{position: "relative", top: "30px"}} href="/contact">Contact Me</Button>
+                <Button variant="info" style={{position: "relative", top: "30px"}} href="/contact">Contact Me</Button>
 
         </div>
     )

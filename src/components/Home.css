@@ -1,8 +1,8 @@
 .myName {
     position: absolute;
     left: 300px;
-    top: 150px;
-    color: #1f0303;
+    top: 25%;
+    color: rgb(200, 200, 227);
     font-family: 'Montserrat', sans-serif;;
     font-size: 100px;
     animation: 2s slide-up;
@@ -19,7 +19,11 @@
     }
 }
 
-body {
+ body {
+    
     background-color: rgb(194, 194, 219);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://i.imgur.com/7jcMZrI.jpg");
     overflow: hidden
 }

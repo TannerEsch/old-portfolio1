@@ -24,11 +24,11 @@ export const Contact = () => {
     <StyledContactForm>
 
     <form ref={form} onSubmit={sendEmail} style={{position:"absolute", top:"300px", left:"300px"}}>
-      <label>Name</label>
+      <label style={{color:"white"}}>Name</label>
       <input type="text" name="user_name" />
-      <label>Email</label>
+      <label style={{color:"white"}} >Email</label>
       <input type="email" name="user_email" />
-      <label>Message</label>
+      <label style={{color:"white"}}>Message</label>
       <textarea name="message" />
       <input type="submit" value="Send" />
     </form>
@@ -80,8 +80,8 @@ const StyledContactForm = styled.div`
     input[type="submit"] {
       margin-top: 2rem;
       cursor: pointer;
-      background: rgb(249, 105, 14);
-      color: white;
+      background: rgb(200, 200, 227);
+      color: black;
       border: none;
     }
   }
