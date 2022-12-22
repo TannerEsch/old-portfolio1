@@ -10,7 +10,7 @@ import Databases from './Databases';
 function Skills() {
     return (
         <Tabs
-            style={{ position: "absolute", width: "175vh", left: "250px", bottom: "915px" }}
+            style={{ position: "absolute", width: "175vh", left: "250px", top: "0px" }}
             defaultActiveKey="profile"
             id="fill-tab-example"
             className="mb-3"

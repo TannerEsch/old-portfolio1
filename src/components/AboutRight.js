@@ -6,7 +6,7 @@ import React from "react";
         <div style={{fontFamily: "Chivo Mono"}}>
                 <style>@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@200&display=swap');</style>
             <h1 style={{position: "absolute", fontSize: "70px", top:"0px", right: "425px"}}>FaQ's</h1>
-            <div style={{position: "absolute", width: "1000px", fontSize: "20px", top:"200px", right: "10px"}}> 
+            <div style={{position: "absolute", width: "50vw", fontSize: "20px", top:"200px", right: "10px"}}> 
             Q: What are your passions?
             <br/>
             A: I'm pretty boring. The only things I'm truly passionate about are science, learning, nature, bodybuilding, and the things associated. 
