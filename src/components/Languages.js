@@ -15,18 +15,18 @@ function Projects() {
         <Card.Body style={{ position: 'relative', top: "10px" }}>
           <Card.Title style={{ position: 'relative', top: "-25px" }}>Python</Card.Title>
           <Card.Text>
-           Flappy-Bird-like game designed using basic Javascript, HTML, and CSS
+          High-level, general-purpose programming language.
           </Card.Text >
           <Button variant="dark" href="https://docs.python.org/3/">See Docs</Button>
         </Card.Body>
       </Card>
 
       <Card style={{ position: "absolute", left: "500px", width: '300px', height: '470px' }}>
-        <Card.Img variant="top" src="https://i.imgur.com/TqGVd5r.png"/>
+        <Card.Img variant="top" src="https://i.imgur.com/ykrYupf.png"/>
         <Card.Body style={{ position: 'relative', top: "10px" }}>
           <Card.Title style={{ position: 'relative', top: "-25px" }}>Javascript</Card.Title>
           <Card.Text>
-           Philanthropy app designed using MongoDB, React, Express, and Node
+          Lightweight, interpreted programming language.
           </Card.Text >
           <Button variant="dark" href="https://javascript.info/document">See Docs</Button>
         </Card.Body>
@@ -37,7 +37,7 @@ function Projects() {
         <Card.Body style={{ position: 'relative', top: "10px" }}>
           <Card.Title style={{ position: 'relative', top: "-25px" }}>HTML 5</Card.Title>
           <Card.Text>
-           Health and wellness app designed using PostgreSQL, Express, Node, and Javascript
+           Hypertext Markup Language used to design web pages.
           </Card.Text >
           <Button variant="dark" style={{position: "relative", top: "60px"}}href="https://developer.mozilla.org/en-US/docs/Web/HTML">See Docs</Button>
         </Card.Body>
@@ -48,7 +48,7 @@ function Projects() {
         <Card.Body style={{ position: 'relative', top: "10px" }}>
           <Card.Title style={{ position: 'relative', top: "-25px" }}>CSS 6</Card.Title>
           <Card.Text>
-          Full-Stack social media application designed using the MERN stack
+          Style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML
           </Card.Text >
           <Button variant="dark" style={{position: "relative", top: "100px"}} href="https://developer.mozilla.org/en-US/docs/Web/CSS">See Docs</Button>
       
