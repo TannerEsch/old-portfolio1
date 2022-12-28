@@ -19,11 +19,11 @@ const NavbarVertical = () => {
             <a href="/"><img src="https://i.imgur.com/kAwto4t.jpg" style={{position: "absolute", top: "-300px", left: "30px", borderRadius: "100px", width: "200px", height: "200px"}}  /></a>
             <Link className="navbar-brand" to="/" style={{paddingTop:"15px", paddingBottom: "15px"}}>{< BsHouseDoor />}Home</Link>  
             <NavLink className="nav-link"  to="/projects" style={{paddingTop:"15px", paddingBottom: "20px"}}>{< AiOutlineFundProjectionScreen />}Projects</NavLink>    
-            <a href="https://docs.google.com/document/d/1TgAYitg4LfL_QoXdsUQXS2ApJdKWDs9KgtT1DwlJq8w/edit" style={{textDecoration:"None", color: "rgb(194, 194, 219)", paddingTop:"15px", paddingBottom: "25px" }}> {< RiFilePaper2Line />}Resume</a>  
+            <Link to="public\files\ATS Resume - Tanner Eschmann.pdf" target="_blank" style={{textDecoration: "none", color: "rgb(194, 194, 219)"}} download>{< RiFilePaper2Line />}Resume</Link>  
             <NavLink className="nav-link"  to="/skills" style={{paddingTop:"25px", paddingBottom: "15px"}}>{< FiPenTool />}skills</NavLink>   
             <NavLink className="nav-link"  to="/about" style={{paddingTop:"15px", paddingBottom: "15px"}}>{< BsClipboard />}About</NavLink> 
             <NavLink className="nav-link"  to="/contact" style={{paddingTop:"15px", paddingBottom: "20px"}}>{< BsTelephone />}Contact</NavLink>   
-            </div>                   
+            </div>   
         </nav>
     );
 }
