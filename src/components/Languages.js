@@ -17,7 +17,7 @@ function Projects() {
           <Card.Text>
            Flappy-Bird-like game designed using basic Javascript, HTML, and CSS
           </Card.Text >
-          <Button variant="primary" href="https://docs.python.org/3/">See Docs</Button>
+          <Button variant="dark" href="https://docs.python.org/3/">See Docs</Button>
         </Card.Body>
       </Card>
 
@@ -28,7 +28,7 @@ function Projects() {
           <Card.Text>
            Philanthropy app designed using MongoDB, React, Express, and Node
           </Card.Text >
-          <Button variant="primary" href="https://javascript.info/document">See Docs</Button>
+          <Button variant="dark" href="https://javascript.info/document">See Docs</Button>
         </Card.Body>
       </Card>
 
@@ -39,7 +39,7 @@ function Projects() {
           <Card.Text>
            Health and wellness app designed using PostgreSQL, Express, Node, and Javascript
           </Card.Text >
-          <Button variant="primary" style={{position: "relative", top: "60px"}}href="https://developer.mozilla.org/en-US/docs/Web/HTML">See Docs</Button>
+          <Button variant="dark" style={{position: "relative", top: "60px"}}href="https://developer.mozilla.org/en-US/docs/Web/HTML">See Docs</Button>
         </Card.Body>
       </Card>
 
@@ -50,7 +50,7 @@ function Projects() {
           <Card.Text>
           Full-Stack social media application designed using the MERN stack
           </Card.Text >
-          <Button variant="primary" style={{position: "relative", top: "100px"}} href="https://developer.mozilla.org/en-US/docs/Web/CSS">See Docs</Button>
+          <Button variant="dark" style={{position: "relative", top: "100px"}} href="https://developer.mozilla.org/en-US/docs/Web/CSS">See Docs</Button>
       
         </Card.Body>
       </Card>
@@ -62,7 +62,7 @@ function Projects() {
           <Card.Text>
           Data management language used to handle data in relational databases.
           </Card.Text >
-          <Button variant="primary" style={{position: "relative", top: "125px"}} href="https://www.geeksforgeeks.org/what-is-sql/">Learn More</Button>
+          <Button variant="dark" style={{position: "relative", top: "125px"}} href="https://www.geeksforgeeks.org/what-is-sql/">Learn More</Button>
       
         </Card.Body>
       </Card>

@@ -8,7 +8,8 @@ import NavbarVertical from './components/NavbarVertical';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
-import { Route, Switch, Redirect, BrowserRouter as Router, Routes } from 'react-router-dom';
+
+import { Route, Link, Switch, Redirect, BrowserRouter as Router, Routes } from 'react-router-dom';
 
 
 function App() {
@@ -16,13 +17,13 @@ function App() {
     <div>
     <Router> 
       <NavbarVertical/>
-      <Routes>
+      <Routes >
         <Route path="/" src="https://i.imgur.com/kAwto4t.jpg"  element={< Home />} />
         <Route path="/About" element={< About />} />        
         <Route path="/Contact" element={< Contact />} />
         <Route path="/projects" element={< Projects />} />
         <Route path="/Skills" element={< Skills />} />
-        <Route path="/" element={< Home />} />
+        <Route path="/" element={< Home Router={Router} Link={Link} />} />
         </Routes>
         <div>
         

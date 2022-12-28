@@ -17,7 +17,7 @@ function Databases() {
           <Card.Text>
           Free and open-source relational database management system emphasizing extensibility and SQL compliance.
           </Card.Text >
-          <Button variant="primary" style={{position: "relative", top: "85px"}}href="https://www.postgresql.org/docs/">See Docs</Button>
+          <Button variant="dark" style={{position: "relative", top: "85px"}}href="https://www.postgresql.org/docs/">See Docs</Button>
         </Card.Body>
       </Card>
 
@@ -28,7 +28,7 @@ function Databases() {
           <Card.Text>
           Document-oriented NoSQL database used for high volume data storage.
           </Card.Text >
-          <Button variant="primary" href="https://www.mongodb.com/docs/">See Docs</Button>
+          <Button variant="dark" href="https://www.mongodb.com/docs/">See Docs</Button>
         </Card.Body>
       </Card>
 

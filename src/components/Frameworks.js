@@ -17,7 +17,7 @@ function Projects() {
           <Card.Text>
            Javascript library for building user interfaces.
           </Card.Text >
-          <Button variant="primary" style={{position: "relative", top: "20px"}}href="https://reactjs.org/">See Docs</Button>
+          <Button variant="dark" style={{position: "relative", top: "20px"}}href="https://reactjs.org/">See Docs</Button>
         </Card.Body>
       </Card>
 
@@ -28,7 +28,7 @@ function Projects() {
           <Card.Text>
            Open-source CSS framework directed at response, mobile-first front-end web development.
           </Card.Text >
-          <Button variant="primary" href="https://getbootstrap.com/docs/4.1/getting-started/introduction/">See Docs</Button>
+          <Button variant="dark" href="https://getbootstrap.com/docs/4.1/getting-started/introduction/">See Docs</Button>
         </Card.Body>
       </Card>
 
@@ -39,7 +39,7 @@ function Projects() {
           <Card.Text>
           Python-based web framework that allows you to quickly create efficient web applications.
           </Card.Text >
-          <Button variant="primary" href="https://docs.djangoproject.com/en/4.1/">See Docs</Button>
+          <Button variant="dark" href="https://docs.djangoproject.com/en/4.1/">See Docs</Button>
         </Card.Body>
       </Card>
 
@@ -50,7 +50,7 @@ function Projects() {
           <Card.Text>
           Backend web application framework for building RESTful API's with Node.js.
           </Card.Text >
-          <Button variant="primary" style={{position: "relative", top: "90px"}} href="http://expressjs.com/">See Docs</Button>
+          <Button variant="dark" style={{position: "relative", top: "90px"}} href="http://expressjs.com/">See Docs</Button>
         </Card.Body>
       </Card>
 
@@ -61,7 +61,7 @@ function Projects() {
           <Card.Text>
            Flask is a micro-web-framework written in Python.
           </Card.Text >
-          <Button variant="primary" style={{position: "relative", bottom: "10px"}} href="https://flask.palletsprojects.com/en/2.2.x/">See Docs</Button>
+          <Button variant="dark" style={{position: "relative", bottom: "10px"}} href="https://flask.palletsprojects.com/en/2.2.x/">See Docs</Button>
         </Card.Body>
       </Card>
       <Card style={{ position: "absolute", left: "1500px", width: '300px', height: '470px' }}>
@@ -71,7 +71,7 @@ function Projects() {
           <Card.Text>
           Node.js is an open-source server environment.
           </Card.Text >
-          <Button variant="primary" style={{position: "relative", top: "120px"}}href="https://nodejs.org/en/docs/">See Docs</Button>
+          <Button variant="dark" style={{position: "relative", top: "120px"}}href="https://nodejs.org/en/docs/">See Docs</Button>
         </Card.Body>
       </Card>
       </div>

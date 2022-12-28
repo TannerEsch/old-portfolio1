@@ -17,7 +17,8 @@ function Projects() {
           <Card.Text>
            Flappy-Bird-like game designed using basic Javascript, HTML, and CSS
           </Card.Text >
-          <Button variant="primary" href="https://github.com/TannerEsch/Project-1">See Code</Button>
+          <Button variant="dark" href="https://github.com/TannerEsch/Project-1">See Code</Button>
+          <Button variant="dark" href="https://hoppyhavoc.netlify.app/">Play</Button>
         </Card.Body>
       </Card>
 
@@ -28,8 +29,8 @@ function Projects() {
           <Card.Text>
            Philanthropy app designed using MongoDB, React, Express, and Node
           </Card.Text >
-          <Button variant="primary" href="https://github.com/TannerEsch/Generous-Frontend">Client</Button>
-          <Button variant="primary" href="https://github.com/TannerEsch/Generous-Backend">Server</Button>
+          <Button variant="dark" href="https://github.com/TannerEsch/Generous-Frontend">Client</Button>
+          <Button variant="dark" href="https://github.com/TannerEsch/Generous-Backend">Server</Button>
         </Card.Body>
       </Card>
 
@@ -40,7 +41,8 @@ function Projects() {
           <Card.Text>
            Health and wellness app designed using PostgreSQL, Express, Node, and Javascript
           </Card.Text >
-          <Button variant="primary" style={{position: "relative", top: "-18px"}}href="https://github.com/TannerEsch/GitFit-App">See Code</Button>
+          <Button variant="dark" style={{position: "relative", top: "-18px"}}href="https://github.com/TannerEsch/GitFit-App">See Code</Button>
+          <Button variant="dark" href="https://git-fit-application.herokuapp.com/">See Site</Button>
         </Card.Body>
       </Card>
 
@@ -51,8 +53,8 @@ function Projects() {
           <Card.Text>
           Full-Stack social media application designed using the MERN stack
           </Card.Text >
-          <Button variant="primary" href="https://github.com/TannerEsch/Spiel-frontend">Client</Button>
-          <Button variant="primary" href="https://github.com/TannerEsch/Spiel-backend">Server</Button>
+          <Button variant="dark" href="https://github.com/TannerEsch/Spiel-frontend">Client</Button>
+          <Button variant="dark" href="https://github.com/TannerEsch/Spiel-backend">Server</Button>
         </Card.Body>
       </Card>
 

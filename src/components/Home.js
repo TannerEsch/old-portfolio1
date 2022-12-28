@@ -1,9 +1,10 @@
 import React from "react";
 import './Home.css';
 import Button from 'react-bootstrap/Button';
+import {Link} from 'react-router-dom';
 
 
-function Home() {
+function Home(props) {
 
     return(  
         <div className="myName" style={{fontFamily:"Chivo Mono"}}>
@@ -15,7 +16,7 @@ function Home() {
                 <h1> Full-Stack Engineer </h1>
 
                 </div>
-                <Button variant="info" style={{position: "relative", top: "30px"}} href="/contact">Contact Me</Button>
+                <Link class="nav-link active" to="/contact"><Button variant="dark" style={{position: "relative", top: "30px"}}> Contact Me</Button></Link>
 
         </div>
     )

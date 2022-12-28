@@ -17,7 +17,7 @@ function Projects() {
           <Card.Text>
           API platform for building and using APIs.
           </Card.Text >
-          <Button variant="primary" style={{position: "relative", top: "135px"}} href="https://learning.postman.com/docs/getting-started/introduction/">See Docs</Button>
+          <Button variant="dark" style={{position: "relative", top: "135px"}} href="https://learning.postman.com/docs/getting-started/introduction/">See Docs</Button>
         </Card.Body>
       </Card>
       <Card style={{ position: "absolute", left: "550px", width: '300px', height: '470px' }}>
@@ -27,7 +27,7 @@ function Projects() {
           <Card.Text>
           Command line through which users can use Git features.
           </Card.Text >
-          <Button variant="primary" href="https://git-scm.com/doc">See Docs</Button>
+          <Button variant="dark" href="https://git-scm.com/doc">See Docs</Button>
         </Card.Body>
       </Card>
       <Card style={{ position: "absolute", left: "900px", width: '300px', height: '470px' }}>
@@ -37,7 +37,7 @@ function Projects() {
           <Card.Text>
           Cloud-based Git repository hosting service
           </Card.Text >
-          <Button variant="primary" style={{position: "relative", top: "30px"}} href="https://docs.github.com/en">See Docs</Button>
+          <Button variant="dark" style={{position: "relative", top: "30px"}} href="https://docs.github.com/en">See Docs</Button>
         </Card.Body>
       </Card>
       <Card style={{ position: "absolute", left: "1250px", width: '300px', height: '470px' }}>
@@ -47,7 +47,7 @@ function Projects() {
           <Card.Text>
           Cloud platform that lets companies build, deliver, monitor and scale apps
           </Card.Text >
-          <Button variant="primary" style={{position: "relative", top: "200px"}} href="https://devcenter.heroku.com/categories/reference">See Docs</Button>
+          <Button variant="dark" style={{position: "relative", top: "200px"}} href="https://devcenter.heroku.com/categories/reference">See Docs</Button>
         </Card.Body>
       </Card>
       </div>

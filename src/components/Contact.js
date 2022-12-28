@@ -2,10 +2,12 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import styled from "styled-components";
 import ContactRight from './ConatctRight';
+import { Button } from 'react-bootstrap';
 
 export const Contact = () => {
-  const form = useRef();
 
+  const form = useRef();
+  
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -21,6 +23,7 @@ export const Contact = () => {
                 <style>
 @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@200&display=swap');
 </style>
+
     <StyledContactForm>
 
     <form ref={form} onSubmit={sendEmail} style={{position:"absolute", top:"300px", left:"300px"}}>
@@ -30,9 +33,10 @@ export const Contact = () => {
       <input type="email" name="user_email" />
       <label style={{color:"white"}}>Message</label>
       <textarea name="message" />
-      <input type="submit" value="Send" />
+      <Button style={{width:"50%", margin:"5px"}} onClick={() => [alert("submitted")]}variant="dark" type="submit" value="Send"> Send</Button>
     </form>
-    </StyledContactForm>
+
+    </StyledContactForm>   
     < ContactRight/>
     </div>
   );
@@ -77,12 +81,6 @@ const StyledContactForm = styled.div`
     label {
       margin-top: 1rem;
     }
-    input[type="submit"] {
-      margin-top: 2rem;
-      cursor: pointer;
-      background: rgb(200, 200, 227);
-      color: black;
-      border: none;
-    }
+    
   }
 `;
